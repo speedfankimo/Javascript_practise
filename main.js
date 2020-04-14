@@ -5,9 +5,14 @@ $(document).ready(function() {
 	//指派Paper.js to canvas
 	paper.setup(document.getElementById('mainCanvas'))
 
-	////增加單一圓圈
-	// var c = Shape.Circle(200, 200 ,100); // (x , y, radius)
-	// c.fillColor = 'green';
+	//增加單一圓圈
+	var c = Shape.Circle(200, 200 ,90); // (x , y, radius)
+	c.fillColor = 'green';
+	var text =new.PointText(200,200);
+	text.justification='center';
+	text.fillColor='white';
+	text.fontsize=25;
+	text.content = 'HELLOW WORLD'
 
 	// ////增加迴圈的圓圈
 	// var c ;
