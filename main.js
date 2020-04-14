@@ -8,7 +8,7 @@ $(document).ready(function() {
 	//增加單一圓圈
 	var c = Shape.Circle(200, 200 ,90); // (x , y, radius)
 	c.fillColor = 'green';
-	var text =new.PointText(200,200);
+	var text =new PointText(200,200);
 	text.justification='center';
 	text.fillColor='white';
 	text.fontsize=25;
